@@ -53,10 +53,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBsQ7fS4kBl6QbEFcTc9u5GU-cEX9uikqc',
-    appId: '1:30969822435:android:91be813036a9d9043519d6',
-    messagingSenderId: '30969822435',
-    projectId: 'quick-day-a599d',
-    storageBucket: 'quick-day-a599d.firebasestorage.app',
+    apiKey: 'xxxxxxxxxxxxxxxxxxxxxxx',
+    appId: 'xxxxxxxxxxxxxxxxxxxxxxx',
+    messagingSenderId: 'xxxxxxxxxxxxxxxxxxxxxxx',
+    projectId: 'xxxxxxxxxxxxxxxxxxxxxxx',
+    storageBucket: 'xxxxxxxxxxxxxxxxxxxxxxx',
   );
 }

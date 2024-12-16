@@ -1,5 +1,9 @@
+library firestore_lazy_loading_totalxsoftware;
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/widgets.dart';
+
+export 'firestore_lazy_loading_totalxsoftware.dart';
 
 /// A class to handle lazy loading of Firestore data with pagination
 /// using a `ScrollController` to trigger the loading of more data as the user scrolls.
