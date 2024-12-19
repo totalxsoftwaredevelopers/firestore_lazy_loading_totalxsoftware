@@ -101,7 +101,7 @@ class FirestoreLazyLoadingTotalxsoftware {
       ref = await query.startAfterDocument(lastDoc!).limit(limit).get();
     }
 
-    if (ref.docs.isEmpty) {
+    if (ref.docs.isEmpty || ref.docs.length < limit) {
       _noMoreData = true;
       noMoreData(true);
     } else {
