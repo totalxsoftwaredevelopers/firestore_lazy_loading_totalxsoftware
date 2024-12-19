@@ -1,4 +1,4 @@
-## 1.0.2
+## 1.0.3
 
 - Initial release of `firestore_lazy_loading_totalxsoftware`.
 - Features:

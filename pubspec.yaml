@@ -3,7 +3,7 @@ description: >
   A Flutter package for implementing lazy loading and pagination with Firestore. 
   Simplifies handling large datasets by fetching data in batches as the user scrolls, 
   using a ScrollController for seamless and efficient integration.
-version: 1.0.2
+version: 1.0.3
 homepage: 'https://github.com/totalxsoftwaredevelopers/firestore_lazy_loading_totalxsoftware'
 
 environment:

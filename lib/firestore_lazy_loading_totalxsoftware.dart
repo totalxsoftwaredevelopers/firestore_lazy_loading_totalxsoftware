@@ -106,13 +106,13 @@ class FirestoreLazyLoadingTotalxsoftware {
       noMoreData(true);
     } else {
       lastDoc = ref.docs.last;
-      // Passing the document data to the onData callback
-      final newDocs = ref.docs
-          .where((doc) => !_docs.any((existingDoc) => existingDoc.id == doc.id))
-          .toList();
-      _docs.addAll(newDocs);
-      onData(newDocs.map((d) => d).toList());
     }
+    // Passing the document data to the onData callback
+    final newDocs = ref.docs
+        .where((doc) => !_docs.any((existingDoc) => existingDoc.id == doc.id))
+        .toList();
+    _docs.addAll(newDocs);
+    onData(newDocs.map((d) => d).toList());
 
     _isLoadingProgress = false;
     onLoading(false);
