@@ -1,4 +1,6 @@
-## 1.0.3
+## 1.1.0
+- Update cloud_firestore: ^6.0.0 package
+## 1.0.4
 
 - Initial release of `firestore_lazy_loading_totalxsoftware`.
 - Features:
