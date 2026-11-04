@@ -23,7 +23,7 @@ Add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  firestore_lazy_loading_totalxsoftware: 1.0.0
+  firestore_lazy_loading_totalxsoftware: 1.2.0
 ```
 
 Then, run:
